@@ -11,10 +11,9 @@ import (
 )
 
 /*
- * Complete the 'minimumLoss' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts LONG_INTEGER_ARRAY price as parameter.
+ * Calculates the minimum loss of buying a house on x day and selling on y day.
+ * Accepts an INT64 ARRAY price as parameter.
+ * Returns an INT32.
  */
 
 func minimumLoss(price []int64) int32 {
